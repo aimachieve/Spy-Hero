@@ -1,0 +1,83 @@
+/* .containers{
+    display:flex;
+    margin-top:20px;
+} */
+.sidebar{
+    margin-top:20px;
+    background:#ffffff;
+    color:#9CC2E2;
+    height:100%;
+    width:250px;
+    transition: all 0.5s;
+}
+.chart_button{
+    padding:8px 12px !important;
+    font-size:12px;
+}
+.chart_class {
+    padding-left:-30px !important;
+    height: 100%;
+    color:#ffffff;
+}
+.bg-meta{
+ 
+ /* background-image:url("../../public/images/meta.png"); */
+    background-repeat:no-repeat;
+    background-size:auto;
+    background-clip: content-box;
+    background-position: center;
+    /* background-blend-mode:difference; */
+}
+.bg-youtube{
+   
+    /* background-image:url("../../public/images/youtube.jpeg"); */
+    background-repeat:no-repeat;
+    background-size: contain;
+
+}
+.bg-tiktok{
+    /* background-image:url("../../public/images/tiktok.jpeg"); */
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.top_section {
+    display:flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.body_section{
+    display:flex;
+}
+.logo {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.bars{
+    display: flex;
+    font-size:25px;
+    /* margin-left: 50px ; */
+    align-content: space-between;
+}
+.bar{
+    margin-left:20px;
+    margin-top:15px;
+}
+.link{
+    display: flex !important;
+    color:black !important;
+    padding:15px 15px !important;
+    gap:17px;
+    align-items:center !important;
+    transition: all 0.5s;
+    
+}
+
+.link:hover{
+    background:rgb(69, 27, 27);
+    color:white;
+    transition: all 0.5s;
+}
+
+.icon .link_text{
+font-size: 20px;
+}
